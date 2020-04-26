@@ -13,9 +13,10 @@ func main() {
 
 	*/
 
-	tuto01()
-
-	tuto02()
-
+	basicvardec1()
+	basicvardec2()
+	basicvardec3()
+	basicvardec4()
+	basicvardec5()
 
 }

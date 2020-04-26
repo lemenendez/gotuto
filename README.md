@@ -20,7 +20,7 @@ A simple Golang tutorial
 
 ## Running a the main go file
 
-´go run github.com/lemenendez/gotuto/cmd/main.go´
+´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/vars.go ´
 
 ## Build the app
 
