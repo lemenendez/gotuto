@@ -1,6 +1,6 @@
 # gotuto
 
-A simple Golang tutorial
+A simple Golang tutorial. It runs using docker
 
 ## Branchs list
 
@@ -9,6 +9,8 @@ A simple Golang tutorial
 ## Checkout branch
 
 ´git checkout basic-01´
+´git checkout basic-02´
+´git checkout basic-03´
 
 ## Build doocker image
 
@@ -22,7 +24,7 @@ A simple Golang tutorial
 
 ´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/vars.go ´
 
-## Build the app
+## Run the app
 
 ´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/swap.go ´
 
