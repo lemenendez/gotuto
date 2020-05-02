@@ -24,7 +24,7 @@ A simple Golang tutorial
 
 ## Build the app
 
-´go build github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/vars.go ´
+´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/swap.go ´
 
 ## Build the package
 
