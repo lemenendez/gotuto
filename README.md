@@ -15,7 +15,7 @@ git checkout branch-name
 
 ´git checkout basic-01´
 
-## Build doocker image
+## Build docker image
 
 ´docker build -t gotuto . ´
 
@@ -23,11 +23,7 @@ git checkout branch-name
 
 ´docker run -it --rm -v "$PWD":/go/gotuto  --name got gotuto bash´
 
-## Running a the main go file
-
-´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/vars.go ´
-
-## Run the app
+## Running the code
 
 ´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/swap.go ´
 
