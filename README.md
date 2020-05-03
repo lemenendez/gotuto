@@ -5,12 +5,15 @@ A simple Golang tutorial. It runs using docker
 ## Branchs list
 
 1. basic-01
+2. basic-02
+3. basic-03
+4. basic-04
 
 ## Checkout branch
 
+git checkout branch-name
+
 ´git checkout basic-01´
-´git checkout basic-02´
-´git checkout basic-03´
 
 ## Build doocker image
 
