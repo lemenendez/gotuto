@@ -1,22 +1,20 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
 
 func main() {
+	var text string
 
-	fmt.Println("Hello, 世界")
+	fmt.Print("Enter text:")
+	fmt.Scan(&text)
 
-	// this is a comment
-
-	/*
-		A multi line comment
-
-	*/
-
-	basicvardec1()
-	basicvardec2()
-	basicvardec3()
-	basicvardec4()
-	basicvardec5()
+	if Search(text) {
+		fmt.Printf("Found\n")
+	}	else {
+		fmt.Printf("Not Found!\n")
+	}
 
 }
