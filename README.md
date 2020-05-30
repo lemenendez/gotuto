@@ -10,6 +10,7 @@ A simple Golang tutorial
 4. basic-04
 5. basic-05
 6. basic-06
+7. basic-07
 
 ## Checkout branch
 
@@ -25,7 +26,7 @@ A simple Golang tutorial
 
 ## Running a the main go file
 
-´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/search.got ´
+´go run github.com/lemenendez/gotuto/tuto/main.go github.com/lemenendez/gotuto/tuto/trunc.go ´
 
 ## Build the app
 

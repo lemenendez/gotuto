@@ -6,15 +6,13 @@ import (
 
 
 func main() {
-	var text string
 
-	fmt.Print("Enter text:")
-	fmt.Scan(&text)
+	var mynumber float32
+	
+	fmt.Printf("Enter a floating point number:\n");	
 
-	if Search(text) {
-		fmt.Printf("Found\n")
-	}	else {
-		fmt.Printf("Not Found!\n")
-	}
+	fmt.Scan(&mynumber)
+
+	fmt.Printf("%v\n", trunc(mynumber))
 
 }
