@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
+<<<<<<< HEAD
 func main() {
 
 	a ,b := 4,5
@@ -18,5 +21,17 @@ func main() {
 	fmt.Printf("%v %v\n", x, y)								// print with format
 	fmt.Printf("%v %v\n", q, w)								// print with format
 	
+=======
+
+func main() {
+
+	var mynumber float32
+	
+	fmt.Printf("Enter a floating point number:\n");	
+
+	fmt.Scan(&mynumber)
+
+	fmt.Printf("%v\n", trunc(mynumber))
+>>>>>>> basic-07
 
 }
