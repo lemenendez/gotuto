@@ -8,6 +8,12 @@ A simple Golang tutorial. It runs using docker
 2. basic-02
 3. basic-03
 4. basic-04
+5. basic-05
+6. basic-06
+7. basic-07
+8. basic-08
+9. basic-09
+10. int-01
 
 ## Checkout branch
 
@@ -25,8 +31,7 @@ git checkout branch-name
 
 ## Running the code
 
-´go run github.com/lemenendez/gotuto/tuto/slice_simple.go´
-´go run github.com/lemenendez/gotuto/tuto/slice.go´
+´go run bubble.go´
 
 ## Build the package
 
