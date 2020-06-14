@@ -31,7 +31,7 @@ git checkout branch-name
 
 ## Running the code
 
-´go run bubble.go´
+´go run displacement.go´
 
 ## Build the package
 
