@@ -31,7 +31,7 @@ git checkout branch-name
 
 ## Running the code
 
-´go run displacement.go´
+´go run ianimals.go´
 
 ## Build the package
 
