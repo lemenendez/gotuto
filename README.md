@@ -14,6 +14,10 @@ A simple Golang tutorial. It runs using docker
 8. basic-08
 9. basic-09
 10. int-01
+11. int-02
+12. int-03
+13. int-04
+14. int-05
 
 ## Checkout branch
 
