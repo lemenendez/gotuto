@@ -35,7 +35,7 @@ git checkout branch-name
 
 ## Running the code
 
-´go run ianimals.go´
+´go run sortv0.go´
 
 ## Build the package
 
