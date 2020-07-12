@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "Id": "nice id",
+  "IdStrategy": "uuid|ulid",
+  "Date": "some date",
+  "Description": "Dummy state machine",
+  "states": [
+    {
+      "Id": "sometext",
+      "Name": "opened"
+    },
+    {
+      "Id": "anotherid",
+      "Name": "closed"
+    }
+  ],
+  "events": [
+    {
+      "name": "open"
+    }
+  ]
+}
