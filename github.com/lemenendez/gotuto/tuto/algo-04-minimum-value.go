@@ -1,3 +1,14 @@
+/*
+
+From: Graphic Go Algorithms
+Credits: Yan Hu
+Name: Minimum Value
+
+Set min value with the content of arr[0], compare with the rest of the array and update
+the min value and index if applies
+
+*/
+
 package main
 
 import "fmt"
