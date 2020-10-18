@@ -1,4 +1,9 @@
 /*
+
+From: Graphic Go Algorithms
+Credits: Yan Hu
+Name: Select Sorting Algorithm
+
 Sort an array by repeatedly finding the minimum element
 from unsorted part and putting it at the beggining.
 */
@@ -6,6 +11,16 @@ from unsorted part and putting it at the beggining.
 package main
 
 import "fmt"
+
+func print(a[] int, count int) {
+	for i:=0; i< count; i++ {
+		if i==count-1 {
+			fmt.Printf("%d\n", a[i])
+		} else {
+			fmt.Printf("%d, ", a[i])
+		}
+	}
+}
 
 func sort(a []int) {
 	count := len(a)
@@ -33,8 +48,6 @@ func main() {
 
 	sort(scores)
 
-	for i := 0; i < len(scores); i++ {
-		fmt.Printf("%d", scores[i])
-	}
+	print(scores, len(scores))
 
 }
