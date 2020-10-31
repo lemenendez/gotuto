@@ -3,8 +3,7 @@ From: Graphic Go Algorithms
 Credits: Yan Hu
 Name: Maximum Value
 
-Compare and swap elements in the array until the last
-number in the array is the maximum
+Compare and swap elements in the array until the lastnumber in the array is the maximum
 
 */
 
@@ -28,7 +27,7 @@ func max(a []int, length int) int {
 			var temp = a[i]
 			a[i] = a[i+1]
 			a[i+1] = temp
-			print(a, length)
+			// print(a, length)
 		}
 	}
 	max:=a[length-1]
@@ -38,13 +37,12 @@ func max(a []int, length int) int {
 func main() {
 
 	var scores = []int{60, 50, 95, 80, 70}
-
 	var length = len(scores)
 
 	print(scores, length)
 
-	var max = max(scores, length)
+	var maxVal = max(scores, length)
 
-	fmt.Printf("Max value = %d\n", max)
+	fmt.Printf("Max value = %d\n", maxVal)
 
 }

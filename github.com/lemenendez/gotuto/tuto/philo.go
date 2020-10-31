@@ -9,9 +9,10 @@ import (
 
 const PHILO_NUM int = 5
 const STICKS_NUM int = 5
-const PHILO_MAX_EATING int = 2
-const PHILO_MAX_EATS int = 3
+const PHILO_MAX_EATING int = 2			// MAX NUMBER OF DINERS EATING AT THE SAME TIME
+const PHILO_MAX_EATS int = 3			//  MAX NUMBER OF EATS FOR EACH PHILO
 
+// table or host
 type Host struct {
 	p []*Philo
 	s []*ChopS
@@ -21,8 +22,8 @@ type Host struct {
 type ChopS struct{ sync.Mutex }
 
 type Philo struct {
-	id              int
-	leftCS, rightCS *ChopS
+	id              int				// id
+	leftCS, rightCS *ChopS			// state
 }
 
 func (p *Philo) selectSticks(MAX int) (int, int) {
@@ -62,14 +63,14 @@ func (h *Host) Setup() {
 
 func (h *Host) Start() {
 	for i := 0; i < PHILO_NUM; i++ {
-		go h.p[i].eat(h.c, h.s)
+		go h.p[i].eat(h.c, h.s)		// gorouting	=> es un thread
 	}
 }
 
 func (h *Host) Wait() {
 	max_exec := len(h.p) * PHILO_MAX_EATS
 	for i := 0; i < max_exec; i++ {
-		h.c <- 1
+		h.c <- 1			// send 1 to each channel
 	}
 }
 
